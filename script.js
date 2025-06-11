@@ -29,7 +29,6 @@ function calculatePower() {
       const putinVariants = [
         "путин", "путин в.в", "путин владимир", "путин владимир владимирович",
         "gexby", "gexby d.d", "gexby dkflbvbh", "gexby dkflbvbh dkflbvbhjdbx",
-        "Путин", "Путин В.В", "Путин Владимир", "Путин Владимир Владимирович"
     ];
 
     if (putinVariants.some(v => normalized.includes(v))) {
